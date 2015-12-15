@@ -14,6 +14,10 @@
 
 ## Configuration
 
+- Install command line tools (xcode package - but without having to install xcode)
+```bash
+xcode-select --install
+```
 - Disable .DS_Store automatic creation in network shares (run in terminal) ([source](https://support.apple.com/en-us/HT1629)) :
 ```bash
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -boolean true
