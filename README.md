@@ -3,6 +3,7 @@
 ## Missing features
 
 - [Caffeine](https://itunes.apple.com/us/app/caffeine/id411246225) : Prevent from sleep feature
+- [Spectacle](https://github.com/eczarny/spectacle) : Easily organize windows without using a mouse
 - [TimeMachineScheduler](http://www.klieme.com/TimeMachineScheduler.html) : Backup scheduler for Time Machine
 - [Homebrew](http://brew.sh/) : Package Manager
 
