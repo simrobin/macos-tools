@@ -19,10 +19,16 @@
 ```bash
 xcode-select --install
 ```
+
+- GNU utils for Mac (Implementations of sed, readlink, zcat, etc. are different on OS X and Linux)
+  - Use homebrew to install : `brew install coreutils gnu-sed`
+  - add `/usr/local/opt/coreutils/libexec/gnubin` to your `PATH` (before `/usr/bin`)
+
 - Disable .DS_Store automatic creation in network shares (run in terminal) ([source](https://support.apple.com/en-us/HT1629)) :
 ```bash
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -boolean true
 ```
+
 - Enable NTFS writing for a disk
   - Check the "DRIVE_NAME" in Finder
   - Run `sudo echo "LABEL=DRIVE_NAME none ntfs rw,auto,nobrowse" >> /etc/fstab` (replace DRIVE_NAME with previous step value - replace space by \040)
